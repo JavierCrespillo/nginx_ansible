@@ -1,0 +1,14 @@
+# nginx
+virtualhosts:
+  - name: v1
+    datos:
+      nameserver: example1.org
+      documentroot: /var/www/v1
+  - name: v2
+    datos:
+      nameserver: example2.org
+      documentroot: /var/www/v2
+        
+virtualhosts2:
+   - name: v3
+   - name: v4
